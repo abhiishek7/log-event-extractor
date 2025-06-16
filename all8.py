@@ -2,21 +2,14 @@ import os  # For creating folders and handling file paths
 import re  # For searching patterns using regular expressions
 
 # ✅ List of serial numbers to search login/logout for
-serial_numbers = ["MXBCQ960YP", "CNBRP2P25F"]  # Add more serials here
+serial_numbers = [":]  # Add more serials here
 
 # ✅ Directory where all the log files are present
-log_dir = r"D:\TICODEANDFILES\CARDSWIPLOGIN_LOGOUT"
+log_dir = r""
 
 # ✅ All 8 log file names (with .log extension)
 log_files = [
-    "NEUF-DWS-Core.81.log",
-    "NEUF-DWS-Core.83.log",
-    "NEUF-DWS-jQuery-UI.main.49.log",
-    "NEUF-DWS-jQuery-UI.main.50.log",
-    "NEUF-HPOmniWeb-Bundle.main.229.log",
-    "NEUF-HPOmniWeb-Bundle.main.224.log",
-    "NEUF-Impl-Bundle.145.log",
-    "NEUF-Impl-Bundle.149.log"
+    
 ]
 
 # ✅ Keywords to look for in each file
