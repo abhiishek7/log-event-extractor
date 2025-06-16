@@ -17,16 +17,14 @@ A Python script to extract `login` and `logout` events from multiple `.log` file
 ## 📁 Input Files
 
 Supports any `.log` files. Example list:
-- `NEUF-DWS-Core.81.log`
-- `NEUF-DWS-Core.83.log`
-- `NEUF-DWS-jQuery-UI.main.49.log`
-- `NEUF-DWS-jQuery-UI.main.50.log`
-- `NEUF-HPOmniWeb-Bundle.main.229.log`
-- `NEUF-HPOmniWeb-Bundle.main.224.log`
-- `NEUF-Impl-Bundle.145.log`
-- `NEUF-Impl-Bundle.149.log`
 
----
 
-## 📤 Output Structure
+output/
+├── device number 1/
+│ ├── login
+│ ├── logout
+│ └── ...
+├── device number 2/
+│ ├── login
+│ └── logout
 
